@@ -111,3 +111,35 @@ outline-color: rgb(43, 144, 226);
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
    
 }
+
+@media screen and (max-width: 900px) {
+   
+   
+.imagem-mario-luigi{
+
+    width: 140px;
+    height: 180px;
+    margin-top: -413px;
+    margin-left: -62px;
+  
+}
+   
+     
+   
+    .caixa-principal {
+width: 100%;
+padding: 15px;
+margin-top: 75px;
+font-size: 20px;
+text-align: center;
+    }
+
+  
+  
+    }
+
+    @media screen and (max-width: 400px) {
+        .imagem-mario-luigi{
+            display: none;
+        }
+    }
